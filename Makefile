@@ -14,4 +14,4 @@ test:
 	python3 -m pytest -vv --cov=main ./src/main_test.py -s # to disable PyTest's output capture
 	# without -s or --capture=no, the outputs from the setup_function and teardown_function would NOT appear
 
-all: install lint test
+all: install lint test format
